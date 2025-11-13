@@ -3,8 +3,10 @@
 
 #include "pch.h"
 #include "SimpleScriptSite.h"
-#include <iostream>
 #include <stdio.h>
+
+void testExpression(const wchar_t* prefix, IActiveScriptParse* pScriptParse, LPCOLESTR script);
+void testScript(const wchar_t* prefix, IActiveScriptParse* pScriptParse, LPCOLESTR script);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
