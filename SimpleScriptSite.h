@@ -1,3 +1,5 @@
+// SimpleScriptSite.h
+
 #ifndef CSimpleScriptSite_H
 #define CSimpleScriptSite_H
 
